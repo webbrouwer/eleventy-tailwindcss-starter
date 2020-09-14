@@ -1,0 +1,8 @@
+@tailwind base;
+
+.change {
+  color: black;
+}
+
+@tailwind components;
+@tailwind utilities;
