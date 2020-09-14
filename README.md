@@ -1,6 +1,6 @@
 # eleventy-tailwindcss-starter
 
-A starter repository showing how to build a website with the [Eleventy](https://www.11ty.dev) and [Tailwind CSS](https://tailwindcss.com).
+A starter repository showing how to build a website with [Eleventy](https://www.11ty.dev) and [Tailwind CSS](https://tailwindcss.com).
 
 ## Getting Started
 
@@ -36,6 +36,6 @@ npm run start
 
 ## Special thanks to:
 
-[Greg Wolanski](https://gregwolanski.com)
+[Greg Wolanski](https://gregwolanski.com),
 [Andy Bell](https://piccalil.li/)
 

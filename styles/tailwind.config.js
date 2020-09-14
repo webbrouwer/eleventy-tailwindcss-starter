@@ -4,17 +4,13 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: {
-    content: ["_site/**/*.html"],
+    content: ["_src/**/*.html"],
     options: {
       whitelist: [],
     },
   },
   theme: {
-    extend: {
-      colors: {
-        change: "black",
-      },
-    },
+    extend: {},
   },
   variants: {},
   plugins: [],
