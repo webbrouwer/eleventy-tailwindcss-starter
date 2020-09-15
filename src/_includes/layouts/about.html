@@ -1,12 +1,11 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<div class="">
-  <article class="intro">
-    <div class="bg-red-900 text-white">
-      {{ content | safe }}
+
+<article class="flex h-screen">
+    <div class="m-auto">
+        {{ content | safe }}
     </div>
-  </article>
-</div>
+</article>
 
 {% endblock %}

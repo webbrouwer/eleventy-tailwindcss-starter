@@ -1,18 +1,14 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<div class="">
-  <article class="intro">
-    <div class="bg-black">
-      <h1 class="text-red-100">
-        {{ intro.eyebrow }}
-        <em class="text-800 md:text-900 lg:text-major weight-bold">{{ intro.main }}</em>
-      </h1>
-      <div class="text-red-900">
-        {{ content | safe }}
+  <article class="flex h-screen">
+      <div class="m-auto text-center">
+        <h1 class="font-bold">
+          {{ intro.eyebrow }}
+        </h1>
+        <div>
+          {{ content | safe }}
+        </div>
       </div>
-    </div>
   </article>
-</div>
-
 {% endblock %}

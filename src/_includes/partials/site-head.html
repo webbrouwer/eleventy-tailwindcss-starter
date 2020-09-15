@@ -1,17 +1,16 @@
-<a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
-<header role="banner" class="site-head">
-  <div class="wrapper">
-    <div class="site-head__inner">
-      <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
-
+<a class="" href="#main-content">Skip to content</a>
+<header role="banner" class="container">
+    <div class="">
+      <a href="/" aria-label="{{ site.name }} - home">
+        LOGO
       </a>
       <nav
-        class="[ nav ] [ site-head__nav ] [ font-sans ]"
+        class=""
         aria-label="Primary navigaton"
       >
-        <ul class="nav__list">
+        <ul class="flex justify-end">
           {% for item in navigation.items %}
-          <li>
+          <li class="mr-6 hover:underline">
             <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
               >{{ item.text }}</a
             >
@@ -20,5 +19,4 @@
         </ul>
       </nav>
     </div>
-  </div>
 </header>
